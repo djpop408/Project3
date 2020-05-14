@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // DB Config
-const db = require("./config/keys").mongoURI;
+const db = require("./config/keys").MONGODB_URI;
 
 // Connect to MongoDB
 mongoose
